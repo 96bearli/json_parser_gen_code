@@ -3,9 +3,9 @@
 little tool | Json Parser |gen code
 
 ## use
-
+git clone
 ```python
-from json_parser_gen_code import json_panser
+from json_parser_gen_code.main import json_panser
 
 json = {"such": 1, "as": "test", "this": ["1", "2", "3"]}
 json_panser(json, key=None)
